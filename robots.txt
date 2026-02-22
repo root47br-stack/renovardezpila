@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+# Sitemap do site principal
+Sitemap: https://renovar.oficialdezpila.com/sitemap.xml
