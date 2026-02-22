@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <meta name="description" content="Renovar DEZPILA – Assista mais de 2 mil canais, filmes e séries. Conteúdo ilimitado em todos os dispositivos com máxima qualidade." />
+
+  <meta name="description"
+    content="Renovar DEZPILA – Assista mais de 2 mil canais, filmes e séries. Conteúdo ilimitado em todos os dispositivos com máxima qualidade." />
   <meta name="keywords" content="Renovar DEZPILA, DEZPILA renovar, IPTV, canais ao vivo, filmes e séries" />
-  
+
   <title>Renovar DezPila – Planos Conteúdos Ilimitado em Qualquer Tela</title>
-  
+
   <link rel="canonical" href="https://renovar.oficialdezpila.com/" />
   <link rel="shortcut icon" href="https://officialdezpila.com/logo.png" type="image/x-icon">
 
@@ -103,7 +105,8 @@
       }
 
       .hero-img {
-        order: -1; /* imagem vem antes do texto */
+        order: -1;
+        /* imagem vem antes do texto */
         margin-bottom: 20px;
       }
 
@@ -124,24 +127,22 @@
 
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;
-      t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];
-      y.parentNode.insertBefore(t,y);
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1;
+      t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "ukmtsiots4");
   </script>
 
 </head>
+
 <body>
 
   <header>
     <div class="logo">
-      <img 
-        loading="lazy" 
-        decoding="async" 
-        src="https://officialdezpila.com/img/LOGO-DezPila.webp" 
+      <img loading="lazy" decoding="async" src="https://officialdezpila.com/img/LOGO-DezPila.webp"
         alt="Renovar Dezpila Oficial">
     </div>
   </header>
@@ -160,9 +161,7 @@
     </div>
 
     <div class="hero-img">
-      <img 
-        loading="lazy"
-        src="https://officialdezpila.com/img/DEZPILA-ALTA-COMPARTIBILIDADE.webp"
+      <img loading="lazy" src="https://officialdezpila.com/img/DEZPILA-ALTA-COMPARTIBILIDADE.webp"
         alt="Renovar DEZPILA – Compatível com TV, celular, tablet e computador">
     </div>
 
@@ -172,5 +171,24 @@
     © 2025 – DezPila Oficial. Todos os direitos reservados.
   </footer>
 
+  <script>
+    (function () {
+      fetch("https://analytics.xiptv.site/collect.php", {
+        method: "POST",
+        keepalive: true,
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          site: window.location.origin,
+          page: window.location.pathname + window.location.search,
+          referrer: document.referrer || null
+        })
+      });
+    })();
+  </script>
+
+
 </body>
+
 </html>
